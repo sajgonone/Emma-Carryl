@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   get 'welcome/homepage'
   devise_for :users
   devise_for :installs
-  resources :links
+  resources "contacts", only: [:new, :create]
   
   
   root to:"welcome#homepage"
