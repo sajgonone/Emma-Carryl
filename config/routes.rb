@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get 'contact_mailer/signup_confirmation'
   get 'welcome/homepage'
   devise_for :users
   devise_for :installs
