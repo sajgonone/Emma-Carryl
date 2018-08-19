@@ -3,6 +3,6 @@ class ContactMailer < ActionMailer::Base
 
     def contact_mailer
 
-        mail to: "mariuszdam@yahoo.com", subject: "Contact Me"
+        mail to: "mariuszdam@yahoo.com", subject: "$name"
     end
 end
