@@ -3,6 +3,6 @@ class ContactMailer < ActionMailer::Base
 
     def contact_mailer
 
-        mail to: "mariuszdam@yahoo.com"
+        mail to: "truesajgon@gmail.com"
     end
 end
