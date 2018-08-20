@@ -58,10 +58,10 @@ Rails.application.configure do
   config.action_mailer.smtp_setting = {
     address: "smtp.gmail.com",
     port: 587,
-    domain: "example.com"
-    authentication: "plain"
+    domain: "gmail.com"
+    authentication: :plain,
     enable_starttls_auto: true,
-    user_name: string[truesajgon]
+    user_name: string[truesajgon@gmail.com]
     password: string[jeremiasz1]
 
   # Raises error for missing translations

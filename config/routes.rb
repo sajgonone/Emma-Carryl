@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  resources: contact_mailer
-  resources: contact_me
   devise_for :users
   devise_for :installs
   
