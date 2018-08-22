@@ -1,0 +1,40 @@
+$dark: #424652;
+
+
+* {
+ box-sizing: border-box; 
+  } 
+
+ body {
+     font-family: 'Raleaway', sans-serif;
+      }
+
+      .wrapper {
+          width: 90%;
+          margin: 0 auto;
+               }
+      .skinny_wrapper {
+          width: 80%;
+          max-width: 760px;
+          margin: 0 auto;
+      }
+
+      .wrapper_padding {
+          padding: 4rem 0;
+      }
+
+      .clearfix::before
+      .clearfix:after {
+          content: " ";
+          display: table;
+      }
+
+      .clearfix:after {
+          clear: both;
+      }
+
+      .hidden {
+          display: none;
+      }
+      
+ .hidden {display: none;}
